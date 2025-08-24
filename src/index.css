@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Nanum+Gothic+Coding&display=swap');
+
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+html, body, #root {
+  font-family: "Fira Code", monospace;
+}
+button:hover{
+  cursor: pointer;
+}
+
+.font-nanum {
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+/* 프로젝트 테마 컬러 스크롤바 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* 배경색과 동일 */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3); /* 프로젝트 메인 컬러 */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5); /* 호버 시 더 진한 색 */
+}
