@@ -14,7 +14,7 @@ const Card = (props) => {
   };
 
   return (
-    <div className="w-[33%] mt-[20px]">
+    <div className="w-[33%] mt-[20px] max-sm:w-full">
       <strong className="block text-[12px] font-[600] text-[#615FFF]">{project.title} <br />
         <span className="text-[#90A1B9] font-[400] text-[12px]">// {project.description}</span>
       </strong>

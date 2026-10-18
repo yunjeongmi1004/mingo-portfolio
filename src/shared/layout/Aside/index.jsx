@@ -10,7 +10,7 @@ const Aside = () => {
 
 
   return (
-    <aside className="absolute top-[35px] left-0 flex h-[calc(100%-35px-22px)] max-h-[761px] max-w-[348px]">
+    <aside className="absolute top-[35px] left-0 flex h-[calc(100%-35px-22px)] max-h-[761px] max-w-[348px] max-sm:hidden">
       <ul className="w-[48px] h-full flex flex-col gap-[10px] bg-[rgba(24,26,31,0.7)]">
         {Object.keys(iconList).slice(0,5).map((key) => (
           <li key={key}>
